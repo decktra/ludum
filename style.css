@@ -625,7 +625,7 @@ ul {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  background: url(images/counter/count-left.png);
+  /* background: url(images/counter/count-left.png); */
   background-repeat: no-repeat;
   background-position: left center;
   height: 100%;
@@ -635,7 +635,7 @@ ul {
 .counter-bg:after {
   left: unset;
   right: 0;
-  background: url(images/counter/count-right.png);
+  /* background: url(images/counter/count-right.png); */
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -1769,12 +1769,16 @@ div.full-width [class*="col-"] {
 /*-------------------------------------
     06. Services Section
 -------------------------------------*/
+.rs-services .single-service {
+  height: 100%;
+}
 .rs-services .single-service .grid-style {
   padding: 25px 25px 30px;
   transition: all 0.3s ease 0s;
   background: #fff;
   border: none;
   box-shadow: 0 0px 50px rgba(204, 204, 204, 0.3);
+  height: 100%
 }
 .rs-services .single-service .service-text .service-title {
   margin: 20px 0 10px;
@@ -4344,4 +4348,8 @@ div.full-width [class*="col-"] {
   .nav-menu > li > a:hover {
     background: #92278f;
   }
+}
+.equal-row {
+  display: flex;
+  flex-wrap: wrap;
 }
