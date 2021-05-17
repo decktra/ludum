@@ -2809,6 +2809,10 @@ div.full-width [class*="col-"] {
   font-size: 30px;
   margin: 20px 0 15px;
 }
+.rs-blog-details .blog-single-sub-title {
+  font-size: 18px;
+  margin: 20px 0 15px;
+}
 .rs-blog-details .h-sidebar {
   padding-bottom: 0;
 }
