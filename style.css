@@ -3919,7 +3919,8 @@ div.full-width [class*="col-"] {
     26. Error Page CSS 
 -------------------------------------*/
 .error-page-area {
-  text-align: center;
+  /* text-align: center; */
+  padding: 10px;
 }
 .error-page-area .error-page {
   background: #f0f0f0;
