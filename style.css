@@ -1790,7 +1790,7 @@ div.full-width [class*="col-"] {
 }
 .rs-services .single-service.style-2 {
   display: inline-flex;
-  align-items: center;
+  /* align-items: center; */
 }
 .rs-services .single-service.style-2 .service-image img {
   max-width: unset;
