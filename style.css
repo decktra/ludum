@@ -1782,7 +1782,7 @@ div.full-width [class*="col-"] {
 }
 .rs-services .single-service .service-text .service-title {
   margin: 20px 0 10px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 .rs-services .single-service .service-text .service-desc {
   margin: 0;
