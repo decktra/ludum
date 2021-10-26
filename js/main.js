@@ -174,7 +174,7 @@
 	        loop:true,
 	        margin:30,
 	        items:3,
-	        autoplay:true,
+	        autoplay:false,
 	        navSpeed: 1200,
 	        smartSpeed: 2000,
 	        center: true,
