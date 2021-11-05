@@ -177,10 +177,10 @@
 	        autoplay:false,
 	        navSpeed: 1200,
 	        smartSpeed: 2000,
-	        center: true,
+	        center: false,
 	        dots: false,
 	        nav:true,
-	        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+	        navText: ["<i class='fa fa-angle-left owl-controls'></i>", "<i class='fa fa-angle-right owl-controls'></i>"],
 	        responsive : {
 	            0 : {
 	                items:1,
